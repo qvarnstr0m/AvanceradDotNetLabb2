@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace AvanceradDotNetLabb2.Data
 {
-    internal class DataContext : DbContext
+    public class DataContext : DbContext
     {
         public DataContext()
         {
